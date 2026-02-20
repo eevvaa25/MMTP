@@ -1,15 +1,60 @@
-# MMTP: Methadone Maintenance Treatment Program
+# 💊 MMTP: Methadone Maintenance Treatment Program
 
-In response to the ongoing opioid crisis, effective treatment programs are critical for helping individuals achieve and sustain recovery. In this project, our aim is to develop a Methadone Mainteinance Treatment Program, using Python, designed specifically for clinicians as the end-users to assist those struggling with Opioid Use Disorder (OUD).
+**Developed a Python-based clinical tracking system to analyze methadone dosage patterns and patient retention in Opioid Use Disorder treatment, identifying retention trends to support data-driven clinical decision-making.**
 
-OUD is a substance use disorder, sometimes referred to as "opioid abuse or dependence" or "opioid addiction" and is a problematic pattern of opioid use that causes significant impairment or distress. It is a treatable, chronic disease that can affect anyone – regardless of race, gender, income level, or social class.
+## 🎯 Research Question
+**Which treatment and dosage patterns are associated with patient retention in Methadone Maintenance Therapy Programs?**
 
-Methadone is a long-acting, synthetic opioid agonist and is widely used for its effectiveness in eliminating withdrawal symptoms and relieving drug cravings. It works by acting on the same opioid receptors that other opioids activate. Examples of other opioids include: heroin, morphine, codeine, fentanyl, oxycodone.
+## 🛠 Tech Stack
+- **Python**
+- **Pandas** (Data Manpulation and aggregation)
+- **NumPy** (Numerical Operations)
+- **Matplotlib / Seaborn** (Visualization)
 
-In the program, patients work with their clinicians to gradually reduce and/or maintain their methadone dosage that effectively prevents withdrawal.
+## 🗂 Dataset
+- Simulated Methadone Maintenance Treatment dataset 
+- **Sample Size**: 110 Patient records
+- **Key Variables**: 
+  -  Patient ID
+  -  name
+  -  sex
+  -  age
+  -  race
+  -  previous_opioid_use
+  -  duration_previous_opioid_use
+  -  date_of_service
+  -  methadone_dose_mg
 
-Our program will serve as a tool to collect and organize patient information into a secure database, track methadone dosages, previous opioid type, duration of previous opioid use, and measure both patient retention rates and overall effectiveness of the treatment.
+## 🧹 Data Preparation & Validation
+- Performed manual validation to ensure data accuracy and consistency
+- Confirmed dosage categorization and verified retention duration calculations
+- Preserved irregular visit intervals to reflect realistic treatment engagement patterns
 
-By using tools like NumPy and Pandas, our program will analyze trends and correlations in the collected data, providing valuable insights that can assist clinicians in making treatment decisions and improve patient outcomes. We will focus on patient retention rate as dropout from maintenance programs places patients in high risk of relapse. Although relapse is a normal step in recovery, it may be life-threatening due to increased risk for a fatal overdose.
+## 📊 Analysis & Methods 
+- Performed descriptive statistical analysis of dosage distribution and retention rates
+- Conducted comparative analysis of demographic variables (age, gender) and prior opioid history versus retention outcomes
+- Evaluated correlations between methadone dosage category and treatment retention
+- Aggregated patient records to compute summary retention metrics 
+- Visualized analytical results using Matplotlib and Seaborn
 
-This project not only enhances the clinical management of OUD but also contributes to the large effort of addressing the opioid pandemic.
+## 🔍 Key Findings 
+- **Higher doses** of methadone are associated with **improved treatment retention rates**
+- **Older patients** demonstrated **higher retention rates** compared to younger patients
+- The majority of patients (64/110) were prescribed low-dose methadone (<45 mg), reflecting a cautious prescribing approach
+- Females had slightly higher retention rates than males; however, the difference was not statistically significant
+
+## 💡 Interpretation
+- The association between a high-dose methadone suggest that dosage category and early treatment stability may influence patient retention outcomes
+- Low retention among younger patients may indicate differing engagement barriers or treatment adherence patterns across age groups.
+- The prevalence of low-dose prescribing suggests a conservative, cautious initial dosing strategy within the dataset
+- The lack of significant gender difference indicates retention outcomes may be more strongly influenced by other treatment variables than by sex alone
+
+## 🚀 Actionable Insight 
+- Enhanced monitoring and engagement strategies during early treatment phases may improve retention outcomes, particularly for younger patients
+- Retention-focused interventions may be more effectively targeted by age group rather than by gender.
+
+## ⚠️ Limitations
+- Dataset was manually constructed, limiting scalability and real world variability
+- Small sample size (n=110) restricts generalizability
+- Limited demographic diversity (e.g. age, race, prior opioid use)
+- Short timeframes limits long term retention analysis
