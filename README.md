@@ -1,6 +1,12 @@
 # 💊 MMTP: Methadone Maintenance Treatment Program
 Python | Exploratory Data Analysis | Data Visualization
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/32603387-a431-4a7e-84a7-a62cf0e1434e" 
+       alt="icon" 
+       width="200" />
+</p>
+
 **Developed a Python-based clinical tracking system to analyze methadone dosage patterns and patient retention in Opioid Use Disorder treatment, identifying retention trends to support data-driven clinical decision-making.**
 
 ## 🎯 Research Question
@@ -59,3 +65,21 @@ Python | Exploratory Data Analysis | Data Visualization
 - Small sample size (n=110) restricts generalizability
 - Limited demographic diversity (e.g. age, race, prior opioid use)
 - Short timeframes limits long term retention analysis
+
+## 📊 Clinical Outcome Analysis & Visualizations
+
+### Higher doses of methadone are associated with improved treatment retention rates
+<img src="https://github.com/user-attachments/assets/86a6bf0d-f828-499b-a1bf-4463e0db692c" alt="icon" width="500" />
+
+### Retention Trends by Methadone Dose Category Over Time
+<img src="https://github.com/user-attachments/assets/14a7de9a-76fe-4bd2-8a6c-801157031196" alt="icon" width="500" />
+
+
+### Older Age Groups Show Greater Retention Stability
+<img src="https://github.com/user-attachments/assets/361f4ab4-ec32-4dd5-aee4-dd146406b9a6" alt="icon" width="500" />
+
+
+### Distribution of Methadone Dose Categories by Sex
+<img src="https://github.com/user-attachments/assets/0e6ed888-938f-4ee4-823b-e912231afa01" alt="icon" width="500" />
+
+
